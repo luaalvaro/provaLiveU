@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <title>INSCRIÇÃO</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>buxxFeed</h1>
+    </header>
+
+    <form action="/" method=POST class="form" id="myForm">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" required autocomplete="off" value="Lua">
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" id="sobrenome" required autocomplete="off" value="Alvaro">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required autocomplete="off" value="luan.alc@hotmail.com">
+
+        <button type="submit">DESCRUBA SEUS SEMELHANTES</button>
+    </form>
+
+    <div class="result">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ad cumque corporis odit iusto, provident, veritatis, facere id nam beatae eaque tempore quod ducimus magni molestias accusantium numquam! Magni, aut.</p>
+        <p><a href="">Compartilhe com seus amigos!</a><p>
+        
+            <div class="final-result">
+                <h4>Sua cor preferida é <span>Cinza</span></h4>
+                <h4>Você vai adotar um(a) <span>Jaguatirica</span></h4>
+                <h4>E vai morar na <span><%= pais %></span></h4>
+            </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../public/js/script.js"></script>
+</body>
+
+</html>
